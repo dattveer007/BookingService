@@ -22,6 +22,14 @@ module.exports = (sequelize, DataTypes) => {
       type:DataTypes.INTEGER,
       allowNull:false,
     },
+    NoOfSeats:{ 
+      type:DataTypes.INTEGER,
+      allowNull:false,
+    },
+    Cost:{ 
+      type:DataTypes.INTEGER,
+      allowNull:false,
+    },
     status:{ 
       type:DataTypes.ENUM,
       allowNull:false,
